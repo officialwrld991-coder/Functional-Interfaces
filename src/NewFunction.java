@@ -1,4 +1,11 @@
-package PACKAGE_NAME;
+import java.util.function.Function;
 
 public class NewFunction {
+
+        public static void main(String[] args) {
+
+            Function<Integer, Integer> square = (number) -> number * number;
+
+            System.out.println(square.apply(10));
+        }
 }
